@@ -19,6 +19,14 @@ public class AppTest
     {
         super( testName );
     }
+    
+     @Test
+    public AppTest(  )
+    {
+       
+        com.bt.maven.java.project.App app = new com.bt.maven.java.project.App();
+    app.main1();
+    }
 
     /**
      * @return the suite of tests being tested
@@ -34,8 +42,9 @@ public class AppTest
     public void testApp()
     {
         assertTrue( true );
+        com.bt.maven.java.project.App app = new com.bt.maven.java.project.App();
+    app.main1();
     }
     
-    com.bt.maven.java.project.App app = new com.bt.maven.java.project.App();
-    app.main1();
+    
 }
