@@ -35,4 +35,7 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+    com.bt.maven.java.project.App app = new com.bt.maven.java.project.App();
+    app.main1();
 }
