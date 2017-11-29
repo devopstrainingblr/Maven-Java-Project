@@ -20,7 +20,7 @@ public class AppTest
         super( testName );
     }
     
-     @Test
+    
     public AppTest(  )
     {
        
