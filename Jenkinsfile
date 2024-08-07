@@ -50,5 +50,9 @@ node {
             to: 'mithunreddytechnologies@gmail.com'
             */
         throw err
+    }post{
+    always {
+    echo sh 'pipeline completed'
+    }
     }
 }
